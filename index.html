@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>F4Life - Moradias Universitarias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/cabecalho.css" rel="stylesheet" />
+    <link href="css/carrossel.css" rel="stylesheet" />
+    <link href="css/quem-somos.css" rel="stylesheet" />
+    <link href="css/moradias.css" rel="stylesheet" />
+    <link href="css/fale-conosco.css" rel="stylesheet" />
+    <link href="css/rodape.css" rel="stylesheet" />
+    <script src="js/fale-conosco.js"></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="assets/logo.png" alt="Logo F4live" class="cabecalho__logo" />
+      <nav class="cabecalho__navegacao">
+        <ul class="menu">
+          <li class="cabecalho__link"><a href="#QuemSomos"> Quem Somos </a></li>
+          <li class="cabecalho__link"><a href="#Moradias"> Moradias </a></li>
+          <li class="cabecalho__link"><a href="#FaleConosco"> Fale Conosco </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="carrossel">
+        <h1 class="carrossel__titulo">
+            Encontre seu lar
+        </h1>
+        <div id="carrossel">
+          <div id="items">
+            <div class="item"><img src="img/CS1.jpg" /></div>
+            <div class="item"><img src="img/CS2.jpg" /></div>
+            <div class="item"><img src="img/CS3.jpg" /></div>
+            <div class="item"><img src="img/CS5.jpg" /></div>
+            <div class="item"><img src="img/CS1.jpg" /></div>
+            <div class="item"><img src="img/CS2.jpg" /></div>
+        </div>
+      </section>
+      <section id='QuemSomos' class="quem_somos">
+        <h2 class="quem_somos_titulo">Quem somos</h2>
+        <div>
+          <p> Somos uma empresa de aluguéis de repúblicas para pessoas universitárias. Temos opções de acomodações individuais ou compartilhadas.</p>
+          <p> Também realizamos reformas e preparamos moradias para recepção de universitários em um ambiente otimizado para seus estudos de graduação.</p>
+        </div>
+      </section>
+      <section id="Moradias">
+          <h1> Moradias </h1>
+          <ul class="moradias">
+            <li><a href="#">
+              <img class="moradiaImg" src="img/mo1.jpg" alt="Moradia 1">
+              <div class="localizacao">
+                  <img src="img/city.svg">
+                  <p>São Paulo</p>
+              </div>
+              <div class="informacoes">
+                <div>
+                  <img src="img/compartilhado.svg">
+                  <p>Compartilhada</p>
+                </div>
+                <div>
+                    <img src="img/quarto.svg">
+                    <p>2 quartos</p>
+                </div>
+                <div>
+                    <img src="img/regua.svg">
+                  <p>60m²</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img class="moradiaImg" src="img/mo2.jpg" alt="Moradia 2">
+              <div class="localizacao">
+                  <img src="img/city.svg">
+                  <p>Rio de Janeiro</p>
+              </div>
+              <div class="informacoes">
+                <div>
+                  <img src="img/compartilhado.svg">
+                  <p>Compartilhada</p>
+                </div>
+                <div>
+                    <img src="img/quarto.svg">
+                    <p>2 quartos</p>
+                </div>
+                <div>
+                    <img src="img/regua.svg">
+                  <p>60m²</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img class="moradiaImg" src="img/kit1.jpg" alt="Kitnet 1">
+              <div class="localizacao">
+                  <img src="img/city.svg">
+                  <p>Belo Horizonte</p>
+              </div>
+              <div class="informacoes">
+                <div>
+                  <img src="img/kitnet.svg">
+                  <p>Kitnet</p>
+                </div>
+                <div>
+                    <img src="img/quarto.svg">
+                    <p>1 Quarto</p>
+                </div>
+                <div>
+                    <img src="img/regua.svg">
+                  <p>30m²</p>
+                </div>
+              </div>
+           </a></li>
+            <li><a href="#">
+              <img class="moradiaImg" src="img/kit2.jpg" alt="Kitnet 2">
+              <div class="localizacao">
+                  <img src="img/city.svg">
+                  <p>Curitiba</p>
+              </div>
+              <div class="informacoes">
+                <div>
+                  <img src="img/kitnet.svg">
+                  <p>Kitnet</p>
+                </div>
+                <div>
+                    <img src="img/quarto.svg">
+                    <p>1 Quarto</p>
+                </div>
+                <div>
+                  <img src="img/regua.svg">
+                  <p>35m²</p>
+                </div>
+              </div>
+            </a></li>
+          </ul>
+      </section> 
+      <section class="fale_conosco">
+        <h1 id="FaleConosco">Fale Conosco</h1>
+        <form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="usuario@dominio.com">
+          <label for="mensagem"> Mensagem</label>
+          <textarea cols="70" rows="10" id="mensagem" required></textarea>
+          <label>
+            <input type="checkbox" id="checkbox" checked> 
+            Gostaria de receber nossas novidades por Email?
+          </label>
+          <input type="submit" id="botao" onclick="Enviar()" value="Enviar Mensagem">
+        </form>
+      </section>
+    </main>
+
+    <footer >
+      <div class="rodape">
+        <img class="rodape_logo" src="assets/logo.png" alt="Logo F4life">
+        <div>
+          <p>Siga-nos</p>
+          <ul class="icones_sociais">
+              <li><a  href="https://www.twitter.com/" ><img src="img/twitter.png" alt="Icone do Twitter"></a></li>
+              <li><a  href="https://www.instagram.com/" ><img src="img/instagram.png" alt="Icone do Instagram"></a></li>
+              <li><a  href="https://www.facebook.com/" ><img src="img/facebook.png" alt="Icone do Facebook"></a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; Copyright F4Life - 2022</p>
+    </footer>
+  </body>
+</html>

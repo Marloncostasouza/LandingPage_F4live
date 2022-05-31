@@ -1,0 +1,15 @@
+azul:
+#132235 
+
+verde-aqua:
+#68D2CB
+
+cinza-claro:
+#B5BBC0
+
+Cinza-escuro:
+#848C9C
+
+fontes:
+Bakbak One
+Roboto

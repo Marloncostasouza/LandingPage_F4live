@@ -1,0 +1,30 @@
+footer {
+  background: #132235;
+  padding: 2.5rem 0 2rem;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icones_sociais {
+  display: flex;
+}
+
+footer ul li {
+  margin: 2rem 1rem;
+}
+
+footer ul li img {
+  width: 3rem;
+}
+footer p {
+  text-align: center;
+  color: #b5bbc0;
+  font-size: 13px;
+}
+
+footer div p {
+  font-size: 20px;
+}

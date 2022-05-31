@@ -1,0 +1,66 @@
+.carrossel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+
+  padding-top: 13rem;
+  padding-bottom: 2.5rem;
+}
+
+.carrossel__titulo {
+  color: #848c9c;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-bottom: 1.5rem;
+}
+
+#carrossel {
+  widows: 100vw;
+}
+#items {
+  width: 640px;
+
+  display: flex;
+  overflow: hidden;
+}
+#items .item {
+  flex: none;
+
+  width: 50%;
+  height: 200px;
+}
+
+#items .item img {
+  width: 100%;
+  height: 100%;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -100%;
+  }
+  40% {
+    margin-left: -200%;
+  }
+  60% {
+    margin-left: -300%;
+  }
+  80% {
+    margin-left: -400%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}

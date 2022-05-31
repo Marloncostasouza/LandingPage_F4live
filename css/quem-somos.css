@@ -1,0 +1,28 @@
+.quem_somos {
+  background: rgba(19, 34, 53, 0.9);
+  padding: 1em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+.quem_somos_titulo {
+  color: #b5bbc0;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.quem_somos div {
+  width: 50%;
+}
+
+.quem_somos p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
